@@ -1,3 +1,13 @@
+.client-logo {
+  width: 100px; /* Atur lebar logo */
+  height: auto; /* Atur tinggi logo secara otomatis */
+  display: block;
+  margin: 0 auto 20px; /* Atur margin untuk pusatkan logo */
+  text-align: center;
+}
+
+
+
 .App {
   text-align: center;
 }
