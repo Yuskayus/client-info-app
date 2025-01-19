@@ -6,7 +6,12 @@
   text-align: center;
 }
 
-
+/* Atur ukuran logo berdasarkan ukuran layar */
+@media (max-width: 600px) {
+  .client-logo {
+    width: 80px; /* Pengecilan ukuran logo untuk layar kecil */
+  }
+}
 
 .App {
   text-align: center;
@@ -34,6 +39,13 @@
   color: white;
 }
 
+/* Atur font-size berbasis ukuran layar */
+@media (max-width: 600px) {
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -53,6 +65,13 @@ th {
   background-color: #f2f2f2;
 }
 
+/* Atur gaya tabel berdasarkan ukuran layar */
+@media (max-width: 600px) {
+  th, td {
+    padding: 4px; /* Mengurangi padding di layar kecil */
+    font-size: 0.8em; /* Mengurangi ukuran font di layar kecil */
+  }
+}
 
 @keyframes App-logo-spin {
   from {
@@ -61,4 +80,13 @@ th {
   to {
     transform: rotate(360deg);
   }
+}
+
+.responsive-text {
+  white-space: pre-wrap; /* Menjaga spasi dan line breaks */
+  line-height: 1.6; /* Menambahkan line-height untuk jarak antar baris yang lebih baik */
+}
+
+.scrolling-text-container {
+  overflow: hidden; /* Menghindari scroll secara horizontal */
 }
