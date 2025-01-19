@@ -37,4 +37,10 @@
     background-position: center; /* Atur posisi background */
     color: #fff;
   }
+
+  .centered-text {
+    margin: auto; /* Memusatkan seluruh blok teks secara horizontal */
+    width: 80%; /* Atur lebar blok teks */
+    text-align: left; /* Tetap rata kiri */
+  }
   
